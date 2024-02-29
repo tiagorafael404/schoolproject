@@ -1,0 +1,42 @@
+header{
+width: 90%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+.logo{
+	width: 80;
+	cursor: pointer;
+}
+
+header ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+header ul li::after{
+	content: '';
+	height: 10%;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+header ul li:hover::after{
+	width: 100%;
+}
