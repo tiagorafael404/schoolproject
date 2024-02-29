@@ -11,7 +11,7 @@
 <?php require "../myheader/site.php"; ?>
 
 aaaaaaaabbb caralho foda-se nao sei q maisaa
-panela do caralho
+panela do caralho, nao sei mas fodase
 
 <div class="info" align="center">
 
