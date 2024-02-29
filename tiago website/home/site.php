@@ -10,7 +10,7 @@
 <body>
 <?php require "../myheader/site.php"; ?>
 
-aaaaaaaabbb caralho
+aaaaaaaabbb caralho foda-se nao sei q mais
 
 <div class="info" align="center">
 
